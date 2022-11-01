@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/yellow">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/teal_700"
+        android:gravity="center"
+        android:text="Quản Lý Máy tính"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnInsertAuthor"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Thêm danh mục"
+        android:background="@drawable/boder_bt"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonShowAuthorList"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/btnInsertAuthor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Xem danh sách Danh mục"
+        android:background="@drawable/boder_bt"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_below="@+id/buttonShowAuthorList"
+        android:id="@+id/buttonInsertBook"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Quản lý Máy tính"
+        android:background="@drawable/boder_bt"
+        />
+
+</RelativeLayout>
